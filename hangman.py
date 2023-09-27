@@ -60,7 +60,7 @@ while True:
     pop=guess(x)
     if len(pop)>1:
         if pop=='zz':
-            print("I'm sorry. I was not proggramed with your word")
+            print("I'm sorry. I was not programmed with your word")
             word=input('What was your word?: ')
             with open('words_alpha.txt','a') as file:
                 file.write('\n')
