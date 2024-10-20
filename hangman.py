@@ -1,5 +1,4 @@
 import re
-import readline
 last=''
 wrong=0
 guessed=''
